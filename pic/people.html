@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Game streming</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"></a>
+        <div class="nav-links" id="navlinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="games.html">GAMES</a></li>
+                <li><a href="blog.html">PEOPLE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>    
+    <h1>Streamers</h1>        
+</section>
+
+<!--------------- blog page content ------->
+
+<section class="people content">
+   
+   <div class="row">
+       <div class="people-left">
+           <img src="images/topp.jpg">
+           <h2>How are they</h2>
+           <p>Richard Tyler Blevins, better known as Ninja, is an American Twitch streamer, YouTuber and professional gamer. Blevins began streaming through participating in several esports teams in competitive play for Halo 3, and gradually picked up fame when he first started playing Fortnite Battle Royale in late 2017.</p>
+           <br>
+           <p>Imane Anys, better known as Pokimane, is a Moroccan-Canadian Twitch streamer and YouTuber. She is best known for her live streams on Twitch, broadcasting video game content, most notably in League of Legends and Fortnite. She is currently the most-followed female streamer on the platform.</p>
+           <br>
+           <p>Dream is an American YouTuber and Twitch streamer who is known primarily for creating Minecraft content. Dream has been active online since 2014, but did not gain substantial popularity until 2019 and 2020.</p>
+           <br>
+           <p>Ibai Llanos Garatea, better known mononymously as Ibai, is a Spanish internet celebrity, streamer, and esports caster. He was a content creator for G2 Esports from 2020 to 2021.</p>
+           
+           
+           <div class="comment-box">
+               
+               <h3>Leave a comment</h3>
+               
+               <form class="comment-form">
+                   <input type="text" placeholder="Enter Name">
+                   <input type="email" placeholder="Enter Email">
+                   <textarea rows="5" placeholder="Your comment"></textarea>
+                   <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+               </form>
+           </div>
+           
+           
+           
+       </div>
+       <div class="people-right">
+           <h3>Famous streamers name & age </h3>
+           <div>
+               <span>Ninja</span>
+               <span>31</span>
+           </div>
+           <div>
+               <span>Pokimane</span>
+               <span>26</span>
+           </div>
+           <div>
+               <span>Dream</span>
+               <span>23</span>
+           </div>
+           <div>
+               <span>Ibai Llanos</span>
+               <span>27</span>
+           </div>           
+
+       </div>
+
+   </div>
+    
+</section>
+
+
+
+
+
+
+
+<!------ FOOTER ----->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>A student of apec schools kalumpang, grade and section_B10-10-S1-2</p>
+    <div class="icons">
+         <i class="fa fa-facebook"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made <i class="fa fa-heart-o"></i>by Princess Valerie Perez</p>
+</section>
+
+
+
+<!--------JavaScript for Toggle Menu------->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function showMenu(){
+        navLinks.style.right = "-200";
+    }
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
